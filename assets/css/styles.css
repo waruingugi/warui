@@ -161,9 +161,3 @@ body {
   color:black;
 }
 
-@media (max-width: 330px) {
-  #intro-container {
-    padding-top:3rem;
-  }
-}
-
