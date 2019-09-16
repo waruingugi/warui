@@ -12,7 +12,7 @@
   background-color:rgb(30,30,44);
   border-radius:0 0 25px 25px;
   padding-bottom:25px;
-  padding-top:4.5rem;
+  padding-top:3rem;
 }
 
 #name {
@@ -151,13 +151,42 @@
   outline-color:white;
 }
 
+@media (min-width: 336px) {
+  #styled-icon {
+    font-size:16px;
+    padding-right:5px;
+  }
+}
+
 #styled-icon {
-  font-size:16px;
+  font-size:14px;
   padding-right:5px;
 }
 
 body {
   font-family:'Montserrat Alternates', sans-serif;
   color:black;
+}
+
+@media (max-width: 320px) {
+  #intro-container {
+    padding-top:10px;
+  }
+}
+
+@media (min-width: 576px) {
+  #intro-container {
+    padding-top:4.5rem;
+  }
+}
+
+#styled-button {
+  font-size:14px;
+}
+
+@media (min-width: 336px) {
+  #styled-button {
+    font-size:16px;
+  }
 }
 
