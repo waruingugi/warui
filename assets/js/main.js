@@ -14,7 +14,7 @@ $('.info-slider')
 
 $('#slick-slide-control00').text("Info");
 $('#slick-slide-control01').text("Skills");
-$('#slick-slide-control02').text("Credits");
+$('#slick-slide-control02').text("Portfolio");
 
 $('button#slick-slide-control00, button#slick-slide-control01, button#slick-slide-control02').on('click', function() {
     $('.info-slider')
