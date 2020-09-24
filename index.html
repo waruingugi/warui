@@ -17,10 +17,25 @@
     <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
     <link rel="stylesheet" href="assets/css/styles.css">
 <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
   />
+
+<!-- Smartlook -->
+<script type='text/javascript'>
+  window.smartlook||(function(d) {
+    var o=smartlook=function(){ o.api.push(arguments)},h=d.getElementsByTagName('head')[0];
+    var c=d.createElement('script');o.api=new Array();c.async=true;c.type='text/javascript';
+    c.charset='utf-8';c.src='https://rec.smartlook.com/recorder.js';h.appendChild(c);
+    })(document);
+    smartlook('init', '3f81dfb5b4c3561028a28adf0f2183c9ab30c388');
+</script>
+
+<!-- End Smartlook -->
+
+
 
 <!-- Facebook Pixel Code -->
         <script>
@@ -68,7 +83,7 @@
             </div>
         </div>
     </section>
-    <section id="intro-section" class="pb-4">
+    <section data-aos="slide-up" data-aos-duration="1000" data-aos-once="true" id="intro-section" class="pb-4">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-sm-12 col-md-4"><img id="profile-image" src="assets/img/profile_image.png"></div>
@@ -79,7 +94,7 @@
             </div>
         </div>
     </section>
-    <section id="content-one" class="my-5">
+    <section data-aos="slide-up" data-aos-duration="1000" data-aos-once="true" id="content-one" class="my-5">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-sm-12 col-md-10">
@@ -101,7 +116,7 @@
             </div>
         </div>
     </section>
-    <section id="content-two" class="my-5 bg-light py-5">
+    <section data-aos="slide-up" data-aos-duration="1000" data-aos-once="true" id="content-two" class="my-5 bg-light py-5">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-10">
@@ -148,7 +163,7 @@
             </div>
         </div>
     </section>
-    <section id="content-three" class="my-3 py-4">
+    <section data-aos="fade-up" data-aos-delay="1000" id="content-three" class="my-3 py-4">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-sm-12 col-md-10">
@@ -204,6 +219,8 @@
     </section>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
     <script src="assets/js/custom_email_autocomplete.js"></script>
     <script src="assets/js/jquery.email-autocomplete.js"></script>
 </body>
